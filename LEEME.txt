@@ -1,0 +1,13 @@
+SPORTS DAIRO - PUNTO DE VENTA Y CAJA
+
+Contenido:
+- index.html: tienda y panel administrativo con punto de venta.
+- Punto de venta: catálogo por variante, stock disponible, carrito, IGV incluido, cálculo de vuelto, medios de pago y registro de venta mediante RPC segura.
+- Caja: apertura, cierre, arqueo, historial, ingresos y retiros manuales; los movimientos manuales se consideran en el efectivo esperado.
+- La venta descuenta existencias y registra el movimiento de inventario mediante la función de base de datos existente.
+
+IMPORTANTE:
+- La prueba real de venta está pendiente: la base de datos consultada tiene 0 productos, 0 variantes, 0 filas de inventario y 0 sesiones/ventas.
+- Antes de operar, registra un producto con variante y stock, inicia sesión con un usuario autorizado y abre Caja Principal.
+- No se emiten comprobantes electrónicos SUNAT: el documento impreso es un borrador interno hasta integrar y probar un proveedor autorizado.
+- No publicar claves service_role ni contraseñas en este archivo.
